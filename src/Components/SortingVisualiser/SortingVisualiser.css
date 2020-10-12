@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+.array-container {
+    position: fixed;
+    bottom: 42px;
+    width: 100%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%); 
+  }
+  
+  .array-bar {
+    display: inline-block;
+    margin: 0 1px;
+  }
+
+  .bottom-bar{
+    font-family: 'Josefin Sans', sans-serif;
+    position: fixed;
+    bottom: 0;
+    margin-top: 15px; 
+    width: 100%;
+    margin-left: 0px;
+    display: flex;
+    left:0;
+    padding:0.5%;
+    justify-content: space-between;
+    background-color: rgb(78,78,78);
+  }
+
+  .bottom-bar > button {
+    border-radius: 10px;
+    padding: 8px;
+    
+  } 
+
+  .algo-button{
+    font-family: 'Josefin Sans', sans-serif;
+    border: 1px solid rgba(0, 255, 0, 1);
+    padding: px;
+    background-color: rgba(255, 255, 255, 0);
+    color:rgba(0, 255, 0, 1);
+    transition-duration: 0.5s;
+  }
+
+  .algo-button:hover{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgba(0, 255, 0, 1);
+    color: black;
+    border-color: black;
+    box-shadow: 1px 1px 1px 1px grey;
+  }
+
+
+  .reset-button{
+    font-family: 'Josefin Sans', sans-serif;
+    border: 1px solid red;
+    background-color: rgba(0, 255, 0, 0);
+    padding: 8px;
+    color:red;
+    transition-duration: 0.5s;
+  }
+
+  .reset-button:hover{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgba(255, 0, 0, 0.4);
+    color:black;
+    border-color: black;
+    box-shadow: 1px 1px 1px 1px rgba(255, 0, 0, 1);
+  }
+
+  .disabled-button{
+    font-family: 'Josefin Sans', sans-serif;
+    border: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
+    color:rgb(200,200,200);
+    border:1px solid rgb(200,200,200);
+  }
+
